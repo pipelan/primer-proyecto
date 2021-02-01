@@ -52,7 +52,7 @@ body{
 }
 /* Poniendo estilos a el header */
 .header{
-    height: 17%;
+    height: auto;
     position: fixed;
     z-index: 3;
     display: grid;
@@ -138,8 +138,8 @@ body{
 }
 /* footer */
 footer{
-  margin: 1em;
-  padding: 1em;
+  margin: 0.3em;
+  padding: 0.2em;
 }
 footer a{
   display: block;

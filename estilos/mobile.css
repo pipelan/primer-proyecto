@@ -74,21 +74,33 @@ body{
     z-index: 3;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-areas: "icono nav";
     padding-top: 0.3em;
-    align-items: center;
-    justify-items: center;
+   /*  align-items: center;
+    justify-items: center; */
     background: rgba(0, 0, 0, 1);
     color: white;
 }
 .header-menu-main{
     position: relative;
+    grid-area: nav;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-areas: "title search share menu";
     align-items: center;
     justify-items: center;
     height: 100%;
     list-style: none;
     font-size: 16px;
+}
+.title-menu{
+  grid-area: "title";
+}
+.icon-share{
+  grid-area: "share";
+}
+.cont-menu{
+  grid-area: "menu";
 }
 
 /* Dando estilos al hamburgere menu */
@@ -96,8 +108,8 @@ body{
 .menu-list{
   display: block;
   position: absolute;
-  right: -260px;
-  top: 8.5px;
+  right: -360px;
+  top: 2.6em;
   width: 100%;
   margin-top: 1.4em;
   padding: 0.5em ;
@@ -116,6 +128,9 @@ body{
   text-decoration: none;
   color: white;
 }
+.icon--header{
+  grid-area: "icono";
+}
 .icon--header img{
     max-width: 100%;
 }
@@ -125,7 +140,11 @@ body{
 }
 
 
-
+/* Estilos al search */
+.span-search input{
+  grid-area: "search";
+  display: none;
+}
 /* Poniendo estilos a la secció stories */
 .stories{
     height: auto;

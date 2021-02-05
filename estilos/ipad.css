@@ -1,0 +1,45 @@
+.header{
+    width: 100vw;
+    align-items: initial;
+    justify-items: initial;
+    grid-template-columns: 1fr 1.5fr;
+}
+.header-menu-main{
+    max-height: 100%;
+    grid-template-columns: 1.5fr 1.5fr 0.5fr;
+}
+/* Poniendo estilos al hamburger menu */
+.menu-list{
+    display: none;
+}
+.cont-menu{
+    display: none;
+}
+/*fin estilos al hamburger menu */
+
+/* estilos a los iconos*/
+.icon--header{
+    width: 5.5em;
+}
+.icon--header img{
+    max-width: 100%;
+}
+/* Estilos al search */
+.span-search{
+    display: flex;
+    padding: 0.5em;
+    margin: 0;
+    height: 2em;
+    width: auto;
+    background-color: rgb(51, 51, 51);
+}
+.span-search input{
+    height: 100%;
+    display: inline;
+    background-color: transparent;
+    font-family: 1.5em;
+    margin-right: 0.5em;
+    color: white;
+    border: none;
+    outline: none;
+  }

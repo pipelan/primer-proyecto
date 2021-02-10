@@ -6,16 +6,26 @@
 }
 .header-menu-main{
     max-height: 100%;
-    grid-template-columns: 1.5fr 1.5fr 0.5fr;
+    grid-template-columns: 1.5fr 1.5fr 0.5fr 0.5fr;
 }
 /* Poniendo estilos al hamburger menu */
 .menu-list{
-    display: none;
+    display: initial;
+     right: -960px;
 }
 .cont-menu{
-    display: none;
+    display: initial;
 }
+
 /*fin estilos al hamburger menu */
+/* Poniendo estilos a la secció stories */
+.stories{
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr 1fr;
+
+}
 
 /* estilos a los iconos*/
 .icon--header{
@@ -43,3 +53,4 @@
     border: none;
     outline: none;
   }
+  

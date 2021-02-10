@@ -108,7 +108,7 @@ body{
 .menu-list{
   display: block;
   position: absolute;
-  right: -360px;
+  right: -960px;
   top: 2.6em;
   width: 100%;
   margin-top: 1.4em;
@@ -170,9 +170,9 @@ body{
 }
 .stories--story__description{
     position: absolute;
-    color:black;
+    color: black;
     height: 3em;
-    max-width: inherit;
+    width: 96%;
     bottom: 0.6em;
     z-index: 2;
     padding: 0 1em;
